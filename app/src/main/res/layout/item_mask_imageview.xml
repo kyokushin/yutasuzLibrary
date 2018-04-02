@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.yutasuz.library.ui.widget.MaskImageView
+        android:id="@+id/mask_image_view"
+        android:background="@drawable/rounded_rect"
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="75dp" />
+</android.support.constraint.ConstraintLayout>
